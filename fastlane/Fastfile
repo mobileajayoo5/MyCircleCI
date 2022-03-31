@@ -21,4 +21,9 @@ platform :ios do
     # add actions here: https://docs.fastlane.tools/actions
 	scan
   end
+  desc "build project"
+  lane :buildproject do
+	xcbuild
+  end
+
 end
